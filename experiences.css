@@ -1,322 +1,310 @@
 html {
-	font-size: 16px;
-	background-color: #f9dec9;
+    font-size: 16px;
+    /* background-color: #f9dec9; */
+    background-color: #ffffff;
 }
 
 #heading {
-	/*
+    /*
 	font-family: 'Playfair Display', serif;
 	color: #a6b5d3;
 	text-align: center;
 	*/
-	width: 100%;
-	/*background-color: #ebccda;*/
-	background-color: #e9afa3;
+    width: 100%;
+    /*background-color: #ebccda;*/
+    background-color: #e9afa3;
 }
 
 .text-typing {
-	background-color: #4C5364;
-	/*background-color: #7d93bd;*/
-	width: 100%;
+    background-color: #4C5364;
+    /*background-color: #7d93bd;*/
+    width: 100%;
 }
 
 .text-typing img {
-	display: block;
-	max-height:300px;
-	width: auto;
-	height: auto;
-	margin-left: auto;
-	margin-right: auto;
+    display: block;
+    max-height: 300px;
+    width: auto;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .text-typing p {
-	/*border-right: .15em solid rgb(188, 209, 164);*/
-	font-family: 'Crimson Text', serif;
-	color: #a6b5d3;
-	font-size: 20px;
-	white-space: nowrap;
-	overflow: hidden;
+    /*border-right: .15em solid rgb(188, 209, 164);*/
+    font-family: 'Crimson Text', serif;
+    color: #a6b5d3;
+    font-size: 20px;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 #experiences-text {
-	font-family: 'Lato', sans-serif;
-    font-size: 30px; 
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
     line-height: 1.5;
     color: black;
     text-align: center;
 }
 
+
 /* Social Cards */
+
 .social-container {
     text-align: center;
     /*background-color: #4C5364;*/
 }
 
-.category{
+.category {
     display: inline-block;
     width: 100px;
     height: 100px;
 }
 
-/* NAVIGATION BAR CODE */
-body {
 
-}
+/* NAVIGATION BAR CODE */
+
+body {}
 
 body::-webkit-scrollbar {
-	width: 0.5rem;
+    width: 0.5rem;
 }
 
 body::-webkit-scrollbar-track {
-	background: #3a405a;
+    background: #3a405a;
 }
 
 body::-webkit-scrollbar-thumb {
-	background: #a6b5d3;
+    background: #a6b5d3;
 }
 
 .body1 {
-	color: black;
-	margin: 0;
-	padding: 0;
+    color: black;
+    margin: 0;
+    padding: 0;
 }
 
 main {
-	margin-left: 5rem;
-	padding: 1rem;
+    margin-left: 5rem;
+    padding: 1rem;
 }
 
 .navbar {
-	z-index: 500;
-	position: fixed;
-	background-color: #3a405a;
-	transition: width 200ms ease;
+    z-index: 500;
+    position: fixed;
+    background-color: #3a405a;
+    transition: width 200ms ease;
 }
 
 .navbar-nav {
-	list-style: none;
-	padding: 0;
-	margin: 0;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .nav-link {
-	display: flex;
-	align-items: center;
-	height: 5rem;
-	color: #a6b5d3;
-	text-decoration: none;
+    display: flex;
+    align-items: center;
+    height: 5rem;
+    color: #a6b5d3;
+    text-decoration: none;
 }
 
 .link-text {
-	display: none;
-	margin-left: 1rem;
-	font-family: 'Crimson Text', serif;
-	color: #7d93bd;
-	font-size: 30px;
+    display: none;
+    margin-left: 1rem;
+    font-family: 'Crimson Text', serif;
+    color: #7d93bd;
+    font-size: 30px;
 }
 
+
 /* navbar hover animation */
+
 ul li a {
-    color: black; 
-    position: relative; 
-} 
+    color: black;
+    position: relative;
+}
 
-ul li a::before { 
-    content: ""; 
-    width: 0px; 
-    height: 10px; 
-    background: #a6b5d3; 
-    position: absolute; 
-    top: 85%; /* how close line is to icon */
-    left: 0; 
-    transition: .5s; 
-} 
+ul li a::before {
+    content: "";
+    width: 0px;
+    height: 10px;
+    background: #a6b5d3;
+    position: absolute;
+    top: 85%;
+    /* how close line is to icon */
+    left: 0;
+    transition: .5s;
+}
 
-ul li a:hover::before { 
-    width: 105%; /* how long width of line*/
-} 
+ul li a:hover::before {
+    width: 105%;
+    /* how long width of line*/
+}
 
 .homeicon {
-	content: url('icons/home icon.png');
+    content: url('icons/home icon.png');
     height: 50px;
     width: 50px;
     display: block;
 }
 
 .aboutmeicon {
-	content: url('icons/about me icon.png');
+    content: url('icons/about me icon.png');
     height: 50px;
     width: 50px;
     display: block;
 }
 
 .projectsicon {
-	content: url('icons/projects icon.png');
+    content: url('icons/projects icon.png');
     height: 50px;
     width: 50px;
     display: block;
 }
 
 .experiencesicon {
-	content: url('icons/experiences icon.png');
+    content: url('icons/experiences icon.png');
     height: 50px;
     width: 50px;
     display: block;
 }
 
 .articon {
-	content: url('icons/art icon.png');
+    content: url('icons/art icon.png');
     height: 50px;
     width: 50px;
     display: block;
 }
 
+
 /* Small screens */
+
 @media only screen and (max-width: 600px) {
-	/* welcome text for small screen*/
-	.text-typing img {
-		max-height:150px;
-	}
-
-	/* social cards for small screen */
-	#linkedin-tea {
-	   content: url('social/linkedin closed.png');
-	   height: 100px;
-	   width: 100px;
-	   display: inline-block;
-	   /* to make sure can scroll to the bottom of the screen to see socials*/
-	   margin-bottom: 60px;
-	}
-
-	#linkedin-tea:hover {
-	   content: url('social/linkedin opened.png');
-	}
-
-	#github-tea {
-	   content: url('social/github closed.png');
-	   height: 100px;
-	   width: 100px;
-	   display: inline-block;
-	   /* to make sure can scroll to the bottom of the screen to see socials*/
-	   margin-bottom: 60px;
-	}
-
-	#github-tea:hover {
-	   content: url('social/github opened.png');
-	}
-
-	#email-tea {
-	   content: url('social/email closed.png');
-	   height: 100px;
-	   width: 100px;
-	   display: inline-block;
-	   /* to make sure can scroll to the bottom of the screen to see socials*/
-	   margin-bottom: 60px;
-	}
-
-	#email-tea:hover {
-	   content: url('social/email opened.png');
-	}
-
-	.experienceslogo {
-		content: url('icons/experiences logo.png');
-	    height: 150px;
-	    display: block;
-	    /* centering it with margins */
-		margin-left: auto;
-		margin-right: auto;
-	    /*width: 50;*/
-	}
-
-	.navbar {
-		bottom: 0;
-		right: 0;
-		width: 100vw; 
-		height: 5rem;
-	}
-
-	.navbar-nav {
-		flex-direction: row;
-	}
-
-	.nav-link {
-		/*justify-content: center;*/
-		padding: 0px 25px;
-	}
-
-	main {
-		margin: 0;
-	}
+    /* welcome text for small screen*/
+    .text-typing img {
+        max-height: 150px;
+    }
+    /* social cards for small screen */
+    #linkedin-tea {
+        content: url('social/linkedin closed.png');
+        height: 100px;
+        width: 100px;
+        display: inline-block;
+        /* to make sure can scroll to the bottom of the screen to see socials*/
+        margin-bottom: 60px;
+    }
+    #linkedin-tea:hover {
+        content: url('social/linkedin opened.png');
+    }
+    #github-tea {
+        content: url('social/github closed.png');
+        height: 100px;
+        width: 100px;
+        display: inline-block;
+        /* to make sure can scroll to the bottom of the screen to see socials*/
+        margin-bottom: 60px;
+    }
+    #github-tea:hover {
+        content: url('social/github opened.png');
+    }
+    #email-tea {
+        content: url('social/email closed.png');
+        height: 100px;
+        width: 100px;
+        display: inline-block;
+        /* to make sure can scroll to the bottom of the screen to see socials*/
+        margin-bottom: 60px;
+    }
+    #email-tea:hover {
+        content: url('social/email opened.png');
+    }
+    .experienceslogo {
+        content: url('icons/experiences logo.png');
+        height: 150px;
+        display: block;
+        /* centering it with margins */
+        margin-left: auto;
+        margin-right: auto;
+        /*width: 50;*/
+    }
+    .navbar {
+        bottom: 0;
+        right: 0;
+        width: 100vw;
+        height: 5rem;
+    }
+    .navbar-nav {
+        flex-direction: row;
+    }
+    .nav-link {
+        /*justify-content: center;*/
+        padding: 0px 25px;
+    }
+    main {
+        margin: 0;
+    }
 }
 
+
 /* Large screens */
+
 @media only screen and (min-width: 600px) {
-	/* welcome text for large screen*/
-	.text-typing img {
-		max-height:250px;
-	}
-
-	/* social cards for large screen */
-	#linkedin-tea {
-	   content: url('social/linkedin closed.png');
-	   height: 200px;
-	   width: 200px;
-	   display: inline-block;
-	}
-
-	#linkedin-tea:hover {
-	   content: url('social/linkedin opened.png');
-	}
-
-	#github-tea {
-	   content: url('social/github closed.png');
-	   height: 200px;
-	   width: 200px;
-	   display: inline-block;
-	}
-
-	#github-tea:hover {
-	   content: url('social/github opened.png');
-	}
-
-	#email-tea {
-	   content: url('social/email closed.png');
-	   height: 200px;
-	   width: 200px;
-	   display: inline-block;
-	}
-
-	#email-tea:hover {
-	   content: url('social/email opened.png');
-	}
-
-	.experienceslogo {
-		content: url('icons/experiences logo.png');
-	    height: 175px;
-	    display: block;
-	    /* centering it with margins */
-		margin-left: auto;
-		margin-right: auto;
-	    /*width: 50;*/
-	}
-
-	.navbar {
-		top: 0;
-		left: 0;
-		width: 5rem; 
-		height: 100vh;
-	}
-
-	.navbar:hover {
-		width: 16rem;
-	}
-
-
-	.navbar:hover .link-text {
-		display: inline;
-	}
-
+    /* welcome text for large screen*/
+    .text-typing img {
+        max-height: 250px;
+    }
+    /* social cards for large screen */
+    #linkedin-tea {
+        content: url('social/linkedin closed.png');
+        height: 200px;
+        width: 200px;
+        display: inline-block;
+    }
+    #linkedin-tea:hover {
+        content: url('social/linkedin opened.png');
+    }
+    #github-tea {
+        content: url('social/github closed.png');
+        height: 200px;
+        width: 200px;
+        display: inline-block;
+    }
+    #github-tea:hover {
+        content: url('social/github opened.png');
+    }
+    #email-tea {
+        content: url('social/email closed.png');
+        height: 200px;
+        width: 200px;
+        display: inline-block;
+    }
+    #email-tea:hover {
+        content: url('social/email opened.png');
+    }
+    .experienceslogo {
+        content: url('icons/experiences logo.png');
+        height: 175px;
+        display: block;
+        /* centering it with margins */
+        margin-left: auto;
+        margin-right: auto;
+        /*width: 50;*/
+    }
+    .navbar {
+        top: 0;
+        left: 0;
+        width: 5rem;
+        height: 100vh;
+    }
+    .navbar:hover {
+        width: 16rem;
+    }
+    .navbar:hover .link-text {
+        display: inline;
+    }
 }
